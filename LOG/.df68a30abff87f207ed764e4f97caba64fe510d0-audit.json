@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "LOG\\.df68a30abff87f207ed764e4f97caba64fe510d0-audit.json",
+    "files": [
+        {
+            "date": 1703269010053,
+            "name": "LOG\\TCAMBIO-CSTICORP-WARN-2023-12-22.json",
+            "hash": "5e5adb3f421b6ebafce4ff8242e1bce86b5f8d2af0b67ffc53c1e9d853473fa8"
+        },
+        {
+            "date": 1703307986165,
+            "name": "LOG\\TCAMBIO-CSTICORP-WARN-2023-12-23.json",
+            "hash": "a87e6f0d71718a4bd1d83847e784a317e337d0c3bd68d4ea62608d5afd677ed1"
+        }
+    ],
+    "hashType": "sha256"
+}

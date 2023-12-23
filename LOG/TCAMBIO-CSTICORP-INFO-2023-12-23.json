@@ -1,0 +1,1006 @@
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:08:53.617 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:08:53.641 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:08:53.642 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:08:53.642 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:08:53.642 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:08:53.643 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:08:53.654 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:09:20.064 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:09:20.090 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:09:20.091 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:09:20.091 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:09:20.091 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:09:20.092 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:09:20.104 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:10:25.303 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:10:25.328 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:10:25.328 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:10:25.329 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:10:25.329 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:10:25.329 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:10:25.340 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:10:25.350 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:10:25.350 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:10:25.351 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:10:25.352 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:10:25.352 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:10:25.353 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:10:25.353 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:10:25.377 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:10:25.379 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:10:25.380 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:10:25.380 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:10:25.380 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:10:25.381 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:10:25.381 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:10:25.382 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:10:25.382 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:10:25.383 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:10:25.383 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:10:25.383 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:10:25.384 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:10:25.384 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:10:25.385 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:10:25.385 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:10:25.385 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:10:25.385 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:10:25.386 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:10:25.386 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:10:25.386 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:10:25.386 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:10:25.386 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:10:25.388 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:10:25.391 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:13:28.995 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:13:29.021 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:13:29.022 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:13:29.022 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:13:29.022 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:13:29.023 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:13:29.033 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:13:29.043 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:13:29.044 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:13:29.044 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:13:29.046 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:13:29.046 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:13:29.047 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:13:29.048 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:13:29.072 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:13:29.074 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:13:29.074 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:13:29.075 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:13:29.075 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:13:29.076 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:13:29.076 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:13:29.076 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:13:29.077 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:13:29.077 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:13:29.077 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:13:29.077 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:13:29.078 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:13:29.078 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:13:29.079 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:13:29.079 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:13:29.079 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:13:29.080 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:13:29.080 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:13:29.080 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:13:29.081 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:13:29.081 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:13:29.081 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:13:29.083 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:13:29.087 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:14:04.883 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:14:04.907 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:14:04.907 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:14:04.908 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:14:04.908 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:14:04.908 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:14:04.919 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:14:04.930 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:14:04.930 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:14:04.931 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:14:04.932 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:14:04.932 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:14:04.933 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:14:04.933 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:14:04.954 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:14:04.956 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:14:04.957 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:14:04.957 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:14:04.958 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:14:04.958 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:14:04.958 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:14:04.959 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:14:04.959 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:14:04.960 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:14:04.960 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:14:04.960 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:14:04.961 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:14:04.961 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:14:04.962 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:14:04.962 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:14:04.963 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:14:04.963 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:14:04.963 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:14:04.963 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:14:04.964 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:14:04.964 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:14:04.964 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:14:04.966 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:14:04.969 AM"}
+{"context":"TcambioService","level":"info","message":"Creando Tipo de Cambio del día 2023-12-23","timestamp":"2023-12-23 12:15:37.438 AM"}
+{"context":"TcambioService","level":"info","message":"Se creó el tipo de cambio","timestamp":"2023-12-23 12:15:37.448 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:16:56.910 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:16:56.937 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:16:56.938 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:16:56.938 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:16:56.938 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:16:56.939 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:16:56.953 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:16:56.961 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:16:56.962 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:16:56.962 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:16:56.964 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:16:56.964 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:16:56.965 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:16:56.965 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:16:56.985 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:16:56.987 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:16:56.987 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:16:56.987 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:16:56.988 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:16:56.988 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:16:56.989 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:16:56.989 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:16:56.989 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:16:56.990 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:16:56.990 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:16:56.991 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:16:56.992 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:16:56.992 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:16:56.993 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:16:56.993 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:16:56.993 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:16:56.994 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:16:56.994 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:16:56.994 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:16:56.994 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:16:56.995 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:16:56.995 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:16:56.996 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:16:57.000 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:18:40.263 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:18:40.287 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:18:40.287 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:18:40.288 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:18:40.288 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:18:40.289 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:18:40.299 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:18:40.311 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:18:40.312 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:18:40.312 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:18:40.314 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:18:40.314 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:18:40.314 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:18:40.315 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:18:40.338 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:18:40.341 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:18:40.341 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:18:40.342 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:18:40.342 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:18:40.343 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:18:40.344 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:18:40.344 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:18:40.345 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:18:40.345 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:18:40.345 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:18:40.346 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:18:40.346 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:18:40.346 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:18:40.347 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:18:40.347 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:18:40.347 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:18:40.348 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:18:40.348 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:18:40.348 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:18:40.348 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:18:40.349 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:18:40.349 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:18:40.351 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:18:40.354 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:20:14.559 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:14.584 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:20:14.584 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:20:14.585 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:20:14.585 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:20:14.585 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:20:14.596 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:14.607 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:14.607 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:14.608 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:20:14.609 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:20:14.610 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:20:14.610 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:20:14.610 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:20:14.633 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:20:14.634 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:20:14.635 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:20:14.635 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:20:14.636 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:20:14.636 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:20:14.637 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:20:14.637 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:20:14.637 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:20:14.638 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:20:14.638 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:20:14.638 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:20:14.639 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:20:14.639 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:20:14.640 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:20:14.640 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:20:14.640 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:20:14.640 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:20:14.641 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:20:14.641 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:20:14.642 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:20:14.642 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:20:14.642 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:20:14.644 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:20:14.648 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:20:35.384 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:35.409 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:20:35.409 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:20:35.410 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:20:35.410 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:20:35.410 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:20:35.423 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:35.430 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:35.430 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:35.430 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:20:35.431 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:20:35.432 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:20:35.432 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:20:35.432 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:20:35.453 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:20:35.455 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:20:35.455 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:20:35.455 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:20:35.456 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:20:35.456 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:20:35.457 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:20:35.457 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:20:35.457 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:20:35.458 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:20:35.458 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:20:35.458 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:20:35.459 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:20:35.459 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:20:35.459 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:20:35.460 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:20:35.460 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:20:35.460 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:20:35.461 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:20:35.461 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:20:35.461 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:20:35.461 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:20:35.462 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:20:35.463 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:20:35.466 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:20:40.034 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:40.061 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:20:40.061 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:20:40.062 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:20:40.062 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:20:40.062 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:20:40.076 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:40.083 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:40.083 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:40.083 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:20:40.084 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:20:40.085 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:20:40.085 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:20:40.085 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:20:40.107 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:20:40.109 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:20:40.109 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:20:40.110 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:20:40.110 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:20:40.110 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:20:40.111 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:20:40.111 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:20:40.112 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:20:40.112 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:20:40.112 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:20:40.112 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:20:40.113 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:20:40.113 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:20:40.114 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:20:40.114 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:20:40.114 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:20:40.114 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:20:40.115 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:20:40.115 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:20:40.115 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:20:40.115 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:20:40.116 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:20:40.118 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:20:40.121 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:20:52.113 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:52.137 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:20:52.138 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:20:52.138 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:20:52.139 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:20:52.139 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:20:52.150 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:52.160 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:52.160 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:20:52.161 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:20:52.163 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:20:52.163 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:20:52.163 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:20:52.164 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:20:52.186 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:20:52.188 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:20:52.188 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:20:52.189 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:20:52.190 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:20:52.190 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:20:52.191 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:20:52.192 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:20:52.192 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:20:52.193 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:20:52.193 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:20:52.193 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:20:52.194 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:20:52.194 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:20:52.195 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:20:52.195 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:20:52.195 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:20:52.195 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:20:52.196 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:20:52.196 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:20:52.196 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:20:52.197 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:20:52.197 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:20:52.199 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:20:52.202 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:21:56.967 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:21:56.997 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:21:56.998 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:21:56.998 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:21:56.999 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:21:56.999 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:21:57.011 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:21:57.023 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:21:57.023 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:21:57.023 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:21:57.025 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:21:57.026 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:21:57.026 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:21:57.027 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:21:57.052 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:21:57.054 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:21:57.054 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:21:57.055 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:21:57.055 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:21:57.056 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:21:57.056 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:21:57.057 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:21:57.057 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:21:57.057 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:21:57.058 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:21:57.058 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:21:57.059 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:21:57.059 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:21:57.059 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:21:57.060 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:21:57.060 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:21:57.060 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:21:57.060 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:21:57.061 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:21:57.061 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:21:57.061 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:21:57.061 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:21:57.063 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:21:57.067 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:24:43.619 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:24:43.644 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:24:43.645 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:24:43.645 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:24:43.645 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:24:43.646 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:24:43.658 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:24:43.669 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:24:43.669 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:24:43.670 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:24:43.671 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:24:43.672 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:24:43.672 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:24:43.673 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:24:43.693 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:24:43.695 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:24:43.695 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:24:43.695 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:24:43.696 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:24:43.696 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:24:43.697 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:24:43.697 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:24:43.697 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:24:43.698 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:24:43.698 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:24:43.698 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:24:43.699 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:24:43.699 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:24:43.699 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:24:43.700 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:24:43.700 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:24:43.700 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:24:43.700 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:24:43.701 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:24:43.701 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:24:43.701 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:24:43.701 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:24:43.704 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:24:43.708 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:27:27.131 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:27:27.156 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:27:27.156 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:27:27.157 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:27:27.157 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:27:27.157 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:27:27.168 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:27:27.177 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:27:27.178 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:27:27.178 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:27:27.180 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:27:27.180 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:27:27.180 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:27:27.181 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:27:27.202 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:27:27.204 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:27:27.204 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:27:27.205 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:27:27.205 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:27:27.206 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:27:27.207 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:27:27.207 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:27:27.208 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:27:27.208 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:27:27.208 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:27:27.209 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:27:27.210 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:27:27.210 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:27:27.211 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:27:27.211 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:27:27.211 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:27:27.212 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:27:27.212 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:27:27.212 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:27:27.213 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:27:27.213 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:27:27.213 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:27:27.216 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:27:27.220 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:29:11.903 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:29:11.927 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:29:11.928 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:29:11.928 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:29:11.929 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:29:11.929 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:29:11.939 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:29:11.949 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:29:11.950 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:29:11.950 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:29:11.952 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:29:11.952 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:29:11.953 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:29:11.953 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:29:11.974 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:29:11.976 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:29:11.976 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:29:11.977 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:29:11.977 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:29:11.978 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:29:11.978 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:29:11.978 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:29:11.979 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:29:11.979 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:29:11.979 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:29:11.980 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:29:11.980 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:29:11.981 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:29:11.981 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:29:11.982 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:29:11.982 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:29:11.982 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:29:11.983 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:29:11.983 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:29:11.983 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:29:11.983 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:29:11.984 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:29:11.986 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:29:11.989 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:29:24.132 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:29:24.156 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:29:24.157 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:29:24.157 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:29:24.158 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:29:24.158 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:29:24.172 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:29:24.179 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:29:24.179 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:29:24.179 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:29:24.181 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:29:24.181 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:29:24.182 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:29:24.182 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:29:24.204 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:29:24.206 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:29:24.206 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:29:24.206 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:29:24.207 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:29:24.207 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:29:24.208 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:29:24.208 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:29:24.208 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:29:24.209 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:29:24.209 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:29:24.209 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:29:24.210 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:29:24.210 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:29:24.210 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:29:24.211 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:29:24.211 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:29:24.211 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:29:24.211 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:29:24.212 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:29:24.212 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:29:24.212 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:29:24.213 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:29:24.214 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:29:24.218 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:33:45.834 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:33:45.859 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:33:45.859 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:33:45.860 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:33:45.860 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:33:45.861 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:33:45.873 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:33:45.884 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:33:45.885 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:33:45.885 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:33:45.887 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:33:45.887 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:33:45.887 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:33:45.888 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:33:45.913 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:33:45.915 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:33:45.915 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:33:45.916 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:33:45.916 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:33:45.916 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:33:45.917 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:33:45.917 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:33:45.918 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:33:45.918 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:33:45.918 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:33:45.919 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:33:45.919 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:33:45.919 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:33:45.920 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:33:45.920 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:33:45.920 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:33:45.920 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:33:45.921 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:33:45.921 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:33:45.921 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:33:45.921 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:33:45.922 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:33:45.923 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:33:45.927 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:34:08.436 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:34:08.460 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:34:08.461 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:34:08.461 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:34:08.462 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:34:08.462 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:34:08.472 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:34:08.483 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:34:08.483 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:34:08.483 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:34:08.485 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:34:08.485 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:34:08.486 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:34:08.486 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:34:08.507 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:34:08.509 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:34:08.509 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:34:08.510 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:34:08.510 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:34:08.511 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:34:08.512 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:34:08.512 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:34:08.513 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:34:08.513 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:34:08.513 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:34:08.514 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:34:08.514 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:34:08.515 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:34:08.515 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:34:08.516 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:34:08.516 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:34:08.516 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:34:08.517 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:34:08.517 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:34:08.517 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:34:08.518 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:34:08.518 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:34:08.520 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:34:08.523 AM"}
+{"context":"TcambioService","level":"info","message":"Creando Tipo de Cambio del día 2023-12-23","timestamp":"2023-12-23 12:36:24.269 AM"}
+{"context":"TcambioService","level":"info","message":"Se creó el tipo de cambio","timestamp":"2023-12-23 12:36:24.278 AM"}
+{"context":"ExceptionsHandler","level":"error","message":"Cannot read properties of null (reading 'fecha_registro')","stack":["TypeError: Cannot read properties of null (reading 'fecha_registro')\n    at CurrencyExchangeService.changeCurrency (Z:\\NODEJS\\api-csticorp\\src\\currency-exchange\\currency-exchange.service.ts:51:22)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at Z:\\NODEJS\\api-csticorp\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at Z:\\NODEJS\\api-csticorp\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2023-12-23 12:36:51.124 AM"}
+{"context":"ExceptionsHandler","level":"error","message":"Cannot read properties of null (reading 'fecha_registro')","stack":["TypeError: Cannot read properties of null (reading 'fecha_registro')\n    at CurrencyExchangeService.changeCurrency (Z:\\NODEJS\\api-csticorp\\src\\currency-exchange\\currency-exchange.service.ts:51:22)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at Z:\\NODEJS\\api-csticorp\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at Z:\\NODEJS\\api-csticorp\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2023-12-23 12:36:53.108 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:41:58.935 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:41:58.964 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:41:58.965 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:41:58.965 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:41:58.965 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:41:58.966 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:41:58.976 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:41:58.988 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:41:58.988 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:41:58.988 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:41:58.990 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:41:58.990 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:41:58.991 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:41:58.991 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:41:59.037 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:41:59.039 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:41:59.040 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:41:59.040 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:41:59.041 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:41:59.041 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:41:59.042 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:41:59.042 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:41:59.043 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:41:59.043 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:41:59.043 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:41:59.044 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:41:59.044 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:41:59.045 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:41:59.045 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:41:59.045 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:41:59.045 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:41:59.046 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:41:59.046 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:41:59.046 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:41:59.046 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:41:59.047 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:41:59.047 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:41:59.049 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:41:59.053 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:42:40.719 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:42:40.746 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:42:40.747 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:42:40.747 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:42:40.748 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:42:40.748 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:42:40.758 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:42:40.769 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:42:40.769 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:42:40.769 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:42:40.771 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:42:40.771 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:42:40.772 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:42:40.772 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:42:40.792 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:42:40.794 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:42:40.794 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:42:40.795 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:42:40.795 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:42:40.796 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:42:40.796 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:42:40.797 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:42:40.797 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:42:40.797 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:42:40.798 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:42:40.798 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:42:40.799 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:42:40.799 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:42:40.799 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:42:40.800 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:42:40.800 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:42:40.800 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:42:40.800 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:42:40.801 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:42:40.801 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:42:40.801 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:42:40.802 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:42:40.803 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:42:40.806 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:48:13.163 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:48:13.190 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:48:13.190 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:48:13.191 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:48:13.191 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:48:13.191 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:48:13.201 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:48:13.212 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:48:13.213 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:48:13.213 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:48:13.215 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:48:13.215 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:48:13.216 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:48:13.216 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:48:13.237 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:48:13.239 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:48:13.239 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:48:13.239 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:48:13.240 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:48:13.240 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:48:13.241 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:48:13.241 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:48:13.241 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:48:13.242 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:48:13.242 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:48:13.242 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:48:13.243 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:48:13.243 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:48:13.243 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:48:13.243 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:48:13.244 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:48:13.244 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:48:13.244 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:48:13.244 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:48:13.245 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:48:13.245 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:48:13.245 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:48:13.247 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:48:13.251 AM"}
+{"context":"CurrencyExchangeService","level":"info","message":"Buscando la tasa de conversión de la moneda: USD","timestamp":"2023-12-23 12:48:22.062 AM"}
+{"context":"CurrencyExchangeService","level":"info","message":"Se encontró el tipo de cambio USD","timestamp":"2023-12-23 12:48:22.074 AM"}
+{"context":"CurrencyExchangeService","level":"info","message":"Se registró el cambio de divisa","timestamp":"2023-12-23 12:48:22.088 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:48:58.364 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:48:58.392 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:48:58.392 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:48:58.393 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:48:58.393 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:48:58.393 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:48:58.405 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:48:58.415 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:48:58.416 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:48:58.416 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:48:58.417 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:48:58.418 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:48:58.418 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:48:58.418 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:48:58.441 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:48:58.443 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:48:58.443 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:48:58.444 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:48:58.444 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:48:58.445 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:48:58.445 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:48:58.446 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:48:58.446 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:48:58.447 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:48:58.447 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:48:58.447 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:48:58.448 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:48:58.448 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:48:58.449 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:48:58.449 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:48:58.449 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:48:58.450 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:48:58.450 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:48:58.450 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:48:58.450 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:48:58.451 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:48:58.451 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:48:58.453 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:48:58.457 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:49:00.203 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:49:00.227 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:49:00.228 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:49:00.228 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:49:00.228 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:49:00.229 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:49:00.243 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:49:00.250 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:49:00.251 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:49:00.251 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:49:00.253 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:49:00.253 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:49:00.254 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:49:00.254 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:49:00.277 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:49:00.278 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:49:00.279 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:49:00.279 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:49:00.279 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:49:00.280 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:49:00.281 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:49:00.281 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:49:00.281 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:49:00.282 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:49:00.282 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:49:00.282 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:49:00.283 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:49:00.283 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:49:00.283 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:49:00.284 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:49:00.284 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:49:00.284 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:49:00.285 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:49:00.285 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:49:00.285 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:49:00.285 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:49:00.286 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:49:00.287 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:49:00.290 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:50:17.866 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:50:17.894 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:50:17.895 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:50:17.895 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:50:17.896 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:50:17.897 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:50:17.907 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:50:17.918 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:50:17.918 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:50:17.918 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:50:17.920 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:50:17.920 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:50:17.920 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:50:17.921 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:50:17.943 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:50:17.945 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:50:17.945 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:50:17.946 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:50:17.946 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:50:17.947 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:50:17.947 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:50:17.948 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:50:17.948 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:50:17.948 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:50:17.949 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:50:17.949 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:50:17.949 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:50:17.950 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:50:17.950 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:50:17.950 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:50:17.951 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:50:17.951 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:50:17.951 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:50:17.951 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:50:17.952 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:50:17.952 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:50:17.952 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:50:17.954 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:50:17.957 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:50:56.049 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:50:56.071 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:50:56.072 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:50:56.072 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:50:56.073 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:50:56.073 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:50:56.082 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:50:56.092 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:50:56.092 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:50:56.093 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:50:56.094 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:50:56.094 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:50:56.095 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:50:56.096 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:50:56.117 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:50:56.119 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:50:56.119 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:50:56.119 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:50:56.120 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:50:56.120 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:50:56.121 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:50:56.121 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:50:56.122 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:50:56.122 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:50:56.122 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:50:56.122 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:50:56.123 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:50:56.123 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:50:56.123 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:50:56.124 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:50:56.124 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:50:56.124 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:50:56.125 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:50:56.125 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:50:56.125 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:50:56.125 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:50:56.126 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:50:56.127 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:50:56.131 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:51:17.276 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:51:17.301 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:51:17.301 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:51:17.302 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:51:17.302 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:51:17.302 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:51:17.311 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:51:17.321 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:51:17.321 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:51:17.321 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:51:17.323 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:51:17.323 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:51:17.324 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:51:17.324 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:51:17.345 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:51:17.347 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:51:17.348 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:51:17.348 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:51:17.348 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:51:17.349 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:51:17.349 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:51:17.350 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:51:17.351 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:51:17.351 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:51:17.351 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:51:17.351 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:51:17.352 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:51:17.352 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:51:17.353 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:51:17.353 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:51:17.353 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:51:17.354 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:51:17.354 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:51:17.354 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:51:17.354 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:51:17.355 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:51:17.355 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:51:17.357 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:51:17.360 AM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-12-23 12:51:26.197 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:51:26.302 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-12-23 12:51:26.303 AM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-12-23 12:51:26.303 AM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-12-23 12:51:26.304 AM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-12-23 12:51:26.304 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseCoreModule dependencies initialized","timestamp":"2023-12-23 12:51:26.318 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:51:26.334 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:51:26.335 AM"}
+{"context":"InstanceLoader","level":"info","message":"MongooseModule dependencies initialized","timestamp":"2023-12-23 12:51:26.336 AM"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-12-23 12:51:26.339 AM"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-12-23 12:51:26.339 AM"}
+{"context":"InstanceLoader","level":"info","message":"TcambioModule dependencies initialized","timestamp":"2023-12-23 12:51:26.340 AM"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyExchangeModule dependencies initialized","timestamp":"2023-12-23 12:51:26.340 AM"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:","timestamp":"2023-12-23 12:51:26.366 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/, GET} route","timestamp":"2023-12-23 12:51:26.368 AM"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/auth}:","timestamp":"2023-12-23 12:51:26.369 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/login, POST} route","timestamp":"2023-12-23 12:51:26.370 AM"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:","timestamp":"2023-12-23 12:51:26.370 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, POST} route","timestamp":"2023-12-23 12:51:26.371 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users, GET} route","timestamp":"2023-12-23 12:51:26.371 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, GET} route","timestamp":"2023-12-23 12:51:26.372 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, PATCH} route","timestamp":"2023-12-23 12:51:26.372 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/:id, DELETE} route","timestamp":"2023-12-23 12:51:26.372 AM"}
+{"context":"RoutesResolver","level":"info","message":"TcambioController {/tcambio}:","timestamp":"2023-12-23 12:51:26.373 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, POST} route","timestamp":"2023-12-23 12:51:26.373 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio, GET} route","timestamp":"2023-12-23 12:51:26.374 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, GET} route","timestamp":"2023-12-23 12:51:26.374 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, PATCH} route","timestamp":"2023-12-23 12:51:26.374 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/tcambio/:id, DELETE} route","timestamp":"2023-12-23 12:51:26.375 AM"}
+{"context":"RoutesResolver","level":"info","message":"CurrencyExchangeController {/currency-exchange}:","timestamp":"2023-12-23 12:51:26.375 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, POST} route","timestamp":"2023-12-23 12:51:26.375 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange, GET} route","timestamp":"2023-12-23 12:51:26.376 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/change, GET} route","timestamp":"2023-12-23 12:51:26.376 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, GET} route","timestamp":"2023-12-23 12:51:26.376 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, PATCH} route","timestamp":"2023-12-23 12:51:26.377 AM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/currency-exchange/:id, DELETE} route","timestamp":"2023-12-23 12:51:26.377 AM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-12-23 12:51:26.380 AM"}
+{"context":"bootstrap","level":"info","message":"Server listening: http://[::1]:3000","timestamp":"2023-12-23 12:51:26.383 AM"}
+{"context":"AuthController","level":"info","message":"Logueando usuario","timestamp":"2023-12-23 12:52:05.540 AM"}
+{"context":"AuthService","level":"info","message":"Validando Usuario","timestamp":"2023-12-23 12:52:05.541 AM"}
+{"context":"AuthService","level":"info","message":"Login existoso del usuario: sotoya","timestamp":"2023-12-23 12:52:05.621 AM"}
+{"context":"UsersService","level":"info","message":"Buscando usuario por el id: cb87cb59-8ed9-47ab-8819-bbfd0c38c7de","timestamp":"2023-12-23 12:52:17.069 AM"}
+{"context":"UsersService","level":"info","message":"Se encontró el usuario cb87cb59-8ed9-47ab-8819-bbfd0c38c7de","timestamp":"2023-12-23 12:52:17.071 AM"}
+{"context":"CurrencyExchangeService","level":"info","message":"Buscando la tasa de conversión de la moneda: USD","timestamp":"2023-12-23 12:52:17.071 AM"}
+{"context":"CurrencyExchangeService","level":"info","message":"Se encontró el tipo de cambio USD","timestamp":"2023-12-23 12:52:17.073 AM"}
+{"context":"CurrencyExchangeService","level":"info","message":"Se registró el cambio de divisa","timestamp":"2023-12-23 12:52:17.083 AM"}

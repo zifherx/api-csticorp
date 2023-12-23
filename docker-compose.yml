@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  nest:
+    container_name: nest_app
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "4000:3000"
+    environment:
+      - PORT=3000
+      - DB_URI_LOCAL=mongodb://mongo/bd_tcambio
+      - JWT_SECRET=llave_secreta_csticorp
+      - APP_NAME=TCAMBIO-CSTICORP
+      - LOG_FOLDER=LOG
+      - DATE_PATTERN=YYYY-MM-DD
+      - TIMESTAMP_FORMAT=YYYY-MM-DD hh:mm:ss.SSS A 
+      - MAX_SIZE=20m
+      - MAX_DAYS=14d
+      - LOGSTASH_ENABLED=false
+      - LOGSTASH_PORT=50000
+      - LOGSTASH_NODE_NAME=TCAMBIO_CSTI_CORP
+      - LOGSTASH_HOST=host.docker.internal
+    depends_on:
+      - mongo
+    links:
+      - mongo
+  mongo:
+    image: mongo
+    container_name: nest_mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=nestjs_csti_corp
+    expose:
+      - 27017
